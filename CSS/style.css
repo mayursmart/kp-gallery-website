@@ -1,0 +1,178 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Cedarville Cursive', cursive;
+}
+.container{
+    margin: 0 10%;
+}
+h5{
+    
+    background: -webkit-linear-gradient(#e1eec3, #f05053,#4286f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+}
+/* HEADER SECTION */
+
+#header a{
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.brand-name{
+    /* border:1px solid; */
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(#8A2387,#E94057);
+    opacity: 0.9;
+}
+.brand-name h1{
+    position: absolute;
+    margin:13% 33%;
+    
+}
+.nav-col{
+    /* border:1px solid; */
+    /* padding:20px; */
+    background-color: whitesmoke;
+    
+}
+.nav-col a{
+    /* border:1px solid red; */
+    padding:60px 60px;
+    margin: 5px;
+}
+.nav-col a:hover{
+    background-image: linear-gradient(#2193b0, #6dd5ed);
+    transition: 2s;
+}
+
+/* SERVICES SECTION */
+
+#service{
+   
+margin-top: 9px;
+justify-content: center;
+width:100%;
+
+}
+.img{
+    width:49.3%;
+    height:70vh;
+    background-image: url('https://0.soompi.io/wp-content/uploads/2020/10/15231500/blackpink-12.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cta{
+padding:50px;
+text-align: left;
+background-color:whitesmoke ;
+margin-left:6px;
+}
+
+/* GALLERY SECTION */
+
+#gallery{
+    /* width:100%; */
+    /* padding:0; */
+    padding:0;
+    padding-right: 2px;
+}
+.gallery-heading{
+    margin-top: 10px;
+    background-image: linear-gradient(#2193b0, #6dd5ed);
+  
+    text-align: center;
+}
+
+.img-pad{
+    padding:2% 2%;
+    opacity: 0.7;
+}
+.img-pad:hover{
+    opacity: 0.9;
+    transition: 1s;
+    
+}
+
+.card-img-top{
+    padding: 10%;
+    width:260px;
+    height: 288px;
+    object-fit: cover;
+}
+.card-img-top:hover{
+    box-shadow: 5px 10px 18px red;
+}
+
+
+
+
+
+/* row section */
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.img-pad{
+    padding-left:0;
+    /* padding-right:0; */
+}
+
+/* FOOTER SECTION */
+#footer{
+    padding:7% 15%;
+    text-align: center;
+    background-color: whitesmoke;
+    
+}
+.fa-brands{
+    margin:2%;
+    font-size: x-large;
+}
+.fa-brands:hover{
+    color:#E94057;
+    transition: 1S;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 994px){
+
+   .img{
+    width:100%;
+   } 
+   .cta{
+    width:100%;
+    margin-left: 0;
+    margin-top: 1%;
+   }
+   .card{
+    border: none;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
